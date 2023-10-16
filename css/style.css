@@ -94,13 +94,20 @@ a{
 }
 
 .button{
-    border-color: none;
+    border-color: rgba(0, 0, 0, 0);
     padding: 0.5rem;
     background-color: #0061ff;
     color: white;
 }
 .large-button{
     padding: 0.5rem 1rem;
+}
+.white-button{
+    border-color: #d2d2d2;
+    padding: 0.5rem;
+    background-color: white;
+    color: #d2d2d2;
+    margin: 1rem 0;
 }
 
 
@@ -240,7 +247,7 @@ div.img-container img{
 }
 
 #find-plan button.large-button{
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 3.5rem;
     margin: 3rem 0 1.5rem 0;
 }
 
