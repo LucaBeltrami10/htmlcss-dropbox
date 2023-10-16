@@ -10,9 +10,44 @@ body{
 }
 
 /* CLASSI COMUNI */
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-j-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-j-spc-between{
+    display: flex;
+    justify-content:space-between;
+}
+
+.flex-ai-center{
+    display: flex;
+    align-items: center;
+}
+
+.bc-white{
+    background-color: lightsalmon;
+}
+.bc-lightblue{
+    background-color: #b4d0e7;
+}
+.bc-black{
+    background-color: #000000;
+}
+
 
 /* HEADER */
-
+header{
+    /* altezze fisse da rimuovere e aggiungere padding al contenuto */
+    height: 200px;
+    width: 100vw;
+}
 
 /* MAIN */
 
