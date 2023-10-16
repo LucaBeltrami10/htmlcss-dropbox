@@ -41,13 +41,21 @@ body{
     background-color: #000000;
 }
 
+.cl-gray{
+    color: #e4e5ec;
+}
+
+.strong{
+    font-weight: 600;
+}
+
 /* container */
 
 .large-container{
     /* altezza fissa da rimuovere e aggiungere padding al contenuto */
     /* height: 300px; */
     
-    width: 80%;
+    width: 68%;
     margin: 20px 0;
     background-color: lightcoral;
 }
@@ -57,7 +65,7 @@ body{
     height: 300px;
     background-color: lightcoral;
     
-    width: 60%;
+    width: 57%;
     margin: 20px 0;
 }
 
@@ -118,9 +126,12 @@ header a{
 /* MAIN */
 
 /* Jumbo section */
+main > section.jumbo{
+    padding: 20px 0 0 0;
+}
 section.jumbo h1{
-    font-size: 4rem;
-    padding: 20px 0;
+    font-size: 5rem;
+    padding: 50px 0;
     font-weight: 800;
 }
 
@@ -130,7 +141,7 @@ section.jumbo div.jumbo-bottom-container{
 
 section.jumbo div.jumbo-bottom-container > div{
     height: 400px;
-    width: 30%;
+    width: 40%;
     background-color: purple;
     padding-right: 10px;
     position: relative;
@@ -148,12 +159,12 @@ section.jumbo div.jumbo-bottom-container i{
 
 section.jumbo div.jumbo-bottom-container > div.img-container{
     height: 400px;
-    width: 70%;
+    width: 60%;
     background-color: pink;
 }
 
 div.img-container img{
-    width: 100%;
+    height: 120%;
 }
 
 
@@ -161,15 +172,37 @@ div.img-container img{
 /* main 5 sezioni */
 
 /* sezione tre colonne  */
-main article.column-opt-sub{
-    width: calc((100% / 3) - 4px);
-    margin: 0 2px;
+
+
+#find-plan h2{
+    font-size: 2.8rem;
+    padding: 6rem 0 3rem 0
+}
+
+#find-plan .container-opt-sub{
+    padding: 2.5rem 0 1.5rem 0;
+    flex-wrap: wrap;
+}
+
+#find-plan .container-opt-sub article.column-opt-sub{
+    /* larghezza con rimosso il margine dato alla sola colonna "advance" */
+    width: calc((100% / 3) - 20px);
+    
 
     /*qui sotto da rimuovere */
     background-color: purple;
-    height: 50px;
 }
 
+#find-plan .container-opt-sub article.column-opt-sub.advanced{
+    margin: 0 10px;
+}
+
+#find-plan .container-opt-sub article.row-enterprise{
+    width: 100%;
+
+    /*qui sotto da rimuovere */
+    background-color: purple;
+}
 
 
 
