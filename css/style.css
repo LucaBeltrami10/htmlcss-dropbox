@@ -81,6 +81,9 @@ a{
     background-color: #0061ff;
     color: white;
 }
+.large-button{
+    padding: 0.5rem 1rem;
+}
 
 
 
@@ -116,33 +119,48 @@ header a{
 
 /* Jumbo section */
 section.jumbo h1{
-    font-size: 2rem;
+    font-size: 4rem;
     padding: 20px 0;
+    font-weight: 800;
 }
 
 section.jumbo div.jumbo-bottom-container{
-    height: 300px;
     display: flex;
 }
 
 section.jumbo div.jumbo-bottom-container > div{
-    height: 100%;
+    height: 400px;
     width: 30%;
     background-color: purple;
     padding-right: 10px;
+    position: relative;
 }
 
 section.jumbo div.jumbo-bottom-container > div > button{
     margin: 1rem 0;
 }
 
-section.jumbo div.jumbo-bottom-container > div.img{
-    height: 100%;
+section.jumbo div.jumbo-bottom-container i{
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+}
+
+section.jumbo div.jumbo-bottom-container > div.img-container{
+    height: 400px;
     width: 70%;
     background-color: pink;
 }
 
+div.img-container img{
+    width: 100%;
+}
+
+
+
 /* main 5 sezioni */
+
+/* sezione tre colonne  */
 main article.column-opt-sub{
     width: calc((100% / 3) - 4px);
     margin: 0 2px;
@@ -151,6 +169,11 @@ main article.column-opt-sub{
     background-color: purple;
     height: 50px;
 }
+
+
+
+
+
 
 .section-banners{
     width: 100%;
