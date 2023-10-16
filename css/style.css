@@ -280,6 +280,8 @@ div.img-container img{
 
 
 /* Sezione partners */
+
+
 #dropbox-partner aside{
     width: 55%;
 }
@@ -299,15 +301,22 @@ div.img-container img{
 
 
 /* Sezione Dropbox business features */
+#dropbox-business > .container > h2{
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
 #dropbox-business .container-business-features{
     width: 100%;
+    flex-wrap: wrap;
 }
 
 #dropbox-business .container-business-features .business-feature{
     width: calc(100% / 3);
+    padding-bottom: 3rem;
 }
 
-#dropbox-business .container-business-features .business-features img{
+#dropbox-business .business-feature > img{
     width: 100%;
 }
 
