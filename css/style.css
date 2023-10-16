@@ -298,6 +298,19 @@ div.img-container img{
 }
 
 
+/* Sezione Dropbox business features */
+#dropbox-business .container-business-features{
+    width: 100%;
+}
+
+#dropbox-business .container-business-features .business-feature{
+    width: calc(100% / 3);
+}
+
+#dropbox-business .container-business-features .business-features img{
+    width: 100%;
+}
+
 
 
 .section-banners{
