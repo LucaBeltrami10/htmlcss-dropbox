@@ -364,7 +364,7 @@ div.img-container img{
 
 .section-banners .banners-container{
     width: 100vh;
-    height: 100vh;
+    height: 88vh;
     display: flex;
     flex-wrap: wrap;
 }
@@ -379,6 +379,10 @@ div.img-container img{
     width: 100px;
     height: 100px;
     filter: invert(1);
+}
+
+.section-banners  article{
+    padding: 2rem;
 }
 
 
