@@ -203,7 +203,7 @@ div.img-container img{
     margin: 0 10px;
 }
 
-#find-plan .container-opt-sub article.row-enterprise{
+#find-plan .container-opt-sub article#row-enterprise{
     width: 100%;
     margin-top: 20px;
 
@@ -255,23 +255,20 @@ div.img-container img{
 }
 
 /* 4 elemento in riga */
-.left-row-enterprise{
-    width: 70%;
-}
-
-.left-row-enterprise > p:last-child{
-    padding: 2.5rem 0;
-}
-
-.right-row-enterprise{
-    width: 30%;
+#row-enterprise .plan-info{
     position: relative;
 }
+#row-enterprise .plan-info p:nth-last-child(2){
+    padding: 1rem 0;
+    width: 70%;
+}
+#row-enterprise button{
+    display: inline-block;
+    
 
-.right-row-enterprise > button{
-    margin: 0 auto;
     position: absolute;
-    top: 2rem;
+    top: 0rem;
+    right: 3rem;
 }
 
 
