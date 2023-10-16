@@ -61,6 +61,15 @@ body{
     margin: 20px 0;
 }
 
+.banners-container{
+    /* SELETTORE DA ELIMINARE */
+    height: calc(100% - 4px);
+    width: calc((100% / 3) - 4px);
+    background-color: lightcyan;
+    margin: 2px;
+
+}
+
 
 /* HEADER */
 header{
@@ -109,5 +118,9 @@ main article.column-opt-sub{
 }
 
 
+
 /* FOOTER */
 
+footer{
+    color: white;
+}
