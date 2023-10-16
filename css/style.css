@@ -9,7 +9,14 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
 /* CLASSI COMUNI */
+.flex{
+    display: flex;
+}
 .flex-centered{
     display: flex;
     justify-content: center;
@@ -29,6 +36,10 @@ body{
 .flex-ai-center{
     display: flex;
     align-items: center;
+}
+.flex-ai-start{
+    display: flex;
+    align-items: start;
 }
 
 .bc-white{
@@ -202,11 +213,43 @@ div.img-container img{
 /* Interno delle colonne */
 #find-plan .plan-name{
     text-align: center;
-
+    border: 1px solid #e4e5ec;
+    padding: 0.5rem 0;
 }
 
 #find-plan .plan-info{
+    padding: 2rem;
+    border: 1px solid #e4e5ec;
+}
 
+#find-plan .plan-info *{
+    padding: 0.5rem 0 ;
+}
+
+#find-plan .plan-info > .spec-info{
+    padding: 3rem 0 0 0;
+}
+
+/* organizzazione tra icona e testo all'interno delle colonne */
+#find-plan .column-icon{
+    width: 10%;
+}
+#find-plan .spec-info p{
+    width: 90%;
+}
+
+
+#find-plan div.divider-plan-section{
+    height: 1px;
+    background-color: #e4e5ec;
+    width: 15%;
+    padding: 0;
+    margin: 3rem 0;
+}
+
+#find-plan button.large-button{
+    padding: 0.5rem 3rem;
+    margin: 3rem 0 1.5rem 0;
 }
 
 
