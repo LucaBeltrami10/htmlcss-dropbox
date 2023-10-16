@@ -70,6 +70,19 @@ body{
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    border-color: none;
+    padding: 0.5rem;
+    background-color: #0061ff;
+    color: white;
+}
+
+
 
 /* HEADER */
 header{
@@ -81,7 +94,6 @@ header{
 header .nav-left{
     /*qui sotto da rimuovere */
     background-color: lightcoral;
-    width: 20%;
     
     height: 100%;
 }
@@ -89,9 +101,16 @@ header .nav-left{
 header .nav-right{
     /* qui sotto da rimuovere */
     background-color: lightcoral;
-    width: 20%;
     
     height: 100%;
+}
+
+nav.nav-left  img{
+    height: 50px;
+}
+
+header a{
+    padding: 10px 15px;
 }
 
 /* MAIN */
