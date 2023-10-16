@@ -45,7 +45,7 @@ body{
 
 .large-container{
     /* altezza fissa da rimuovere e aggiungere padding al contenuto */
-    height: 300px;
+    /* height: 300px; */
     
     width: 80%;
     margin: 20px 0;
@@ -87,8 +87,7 @@ a{
 /* HEADER */
 header{
     /* altezza fissa da rimuovere e aggiungere padding al contenuto */
-    height: 60px;
-    width: 100vw;
+    
 }
 
 header .nav-left{
@@ -106,7 +105,7 @@ header .nav-right{
 }
 
 nav.nav-left  img{
-    height: 50px;
+    height: 25px;
 }
 
 header a{
@@ -115,10 +114,35 @@ header a{
 
 /* MAIN */
 
-main{
-    width: 100vw;
+/* Jumbo section */
+section.jumbo h1{
+    font-size: 2rem;
+    padding: 20px 0;
 }
 
+section.jumbo div.jumbo-bottom-container{
+    height: 300px;
+    display: flex;
+}
+
+section.jumbo div.jumbo-bottom-container > div{
+    height: 100%;
+    width: 30%;
+    background-color: purple;
+    padding-right: 10px;
+}
+
+section.jumbo div.jumbo-bottom-container > div > button{
+    margin: 1rem 0;
+}
+
+section.jumbo div.jumbo-bottom-container > div.img{
+    height: 100%;
+    width: 70%;
+    background-color: pink;
+}
+
+/* main 5 sezioni */
 main article.column-opt-sub{
     width: calc((100% / 3) - 4px);
     margin: 0 2px;
