@@ -364,7 +364,7 @@ div.img-container img{
 
 .section-banners .banners-container{
     width: 100vh;
-    height: 88vh;
+    height: 66.66vh;
     display: flex;
     flex-wrap: wrap;
 }
