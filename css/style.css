@@ -51,6 +51,30 @@ ul{
 .bc-black{
     background-color: #000000;
 }
+.bc-green{
+    background-color: #a2d39b;
+}
+.bc-strongred{
+    background-color: #61082b;
+}
+.bc-lightblue{
+    background-color: #0093ce;
+}
+.bc-red{
+    background-color: #ff1c1c;
+}
+.bc-reddie{
+    background-color: #d5001f;
+}
+.bc-lightgray{
+    background-color: #b4d0e7;
+}
+.bc-blue{
+    background-color: #0d2481;
+}
+.bc-yellow{
+    background-color: #ffd830;
+}
 
 .cl-gray{
     color: #e4e5ec;
@@ -79,15 +103,6 @@ ul{
     margin: 20px 0;
 }
 
-.banners-container{
-    /* SELETTORE DA ELIMINARE */
-    height: calc(100% - 4px);
-    width: calc((100% / 3) - 4px);
-    background-color: lightcyan;
-    margin: 2px;
-
-}
-
 a{
     text-decoration: none;
     color: black;
@@ -108,6 +123,12 @@ a{
     background-color: white;
     color: gray;
     margin: 1rem 0;
+}
+
+div.divider{
+    height: 1px;
+    background-color: white;
+    width: 200px;
 }
 
 
@@ -280,7 +301,9 @@ div.img-container img{
 
 
 /* Sezione partners */
-
+#dropbox-partner > .container{
+    padding: 2rem 0;
+}
 
 #dropbox-partner aside{
     width: 55%;
@@ -301,6 +324,9 @@ div.img-container img{
 
 
 /* Sezione Dropbox business features */
+#dropbox-business > .container{
+    padding: 1rem 0 3rem 0;
+}
 #dropbox-business > .container > h2{
     font-size: 2rem;
     padding: 2rem 0;
@@ -320,15 +346,41 @@ div.img-container img{
     width: 100%;
 }
 
+#dropbox-business > .container > a{
+    padding: 1rem 0;
+}
 
+
+
+
+/* banners */
 
 .section-banners{
     width: 100%;
 
     /* qui sotto da rimuovere */
-    height: 300px;
     background-color: lightgreen;
 }
+
+.section-banners .banners-container{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-banners .banners-container > .banner{
+    width: 50%;
+    height: 50%;
+    color: white;
+}
+
+.section-banners .banners-container img{
+    width: 100px;
+    height: 100px;
+    filter: invert(1);
+}
+
 
 
 
