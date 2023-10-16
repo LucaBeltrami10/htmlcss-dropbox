@@ -205,6 +205,7 @@ div.img-container img{
 
 #find-plan .container-opt-sub article.row-enterprise{
     width: 100%;
+    margin-top: 20px;
 
     /*qui sotto da rimuovere */
     background-color: purple;
@@ -230,15 +231,6 @@ div.img-container img{
     padding: 3rem 0 0 0;
 }
 
-/* organizzazione tra icona e testo all'interno delle colonne */
-#find-plan .column-icon{
-    width: 10%;
-}
-#find-plan .spec-info p{
-    width: 90%;
-}
-
-
 #find-plan div.divider-plan-section{
     height: 1px;
     background-color: #e4e5ec;
@@ -251,6 +243,38 @@ div.img-container img{
     padding: 0.5rem 3rem;
     margin: 3rem 0 1.5rem 0;
 }
+
+
+
+/* organizzazione tra icona e testo all'interno delle colonne */
+#find-plan .column-icon{
+    width: 10%;
+}
+#find-plan .spec-info p{
+    width: 90%;
+}
+
+/* 4 elemento in riga */
+.left-row-enterprise{
+    width: 70%;
+}
+
+.left-row-enterprise > p:last-child{
+    padding: 2.5rem 0;
+}
+
+.right-row-enterprise{
+    width: 30%;
+    position: relative;
+}
+
+.right-row-enterprise > button{
+    margin: 0 auto;
+    position: absolute;
+    top: 2rem;
+}
+
+
 
 
 
