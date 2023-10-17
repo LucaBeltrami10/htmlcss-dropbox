@@ -371,48 +371,7 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 
 
-/* banners */
-/* .section-banners{
-    width: 100%;
-}
-
-.section-banners .banners-container{
-    width: 100vh;
-    height: 66.66vh;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.section-banners .banners-container > .banner{
-    width: 50%;
-    height: 50%;
-    color: white;
-}
-
-#section-banners .banners-container img{
-    width: 100px;
-    height: 100px;
-    filter: invert(1);
-}
-
-.section-banners  article{
-    padding: 2rem;
-}
-
-.section-banners .banners-container.center-container{
-    padding: 1rem;
-    background-color: #f5f5f5;
-    
-}
-
-.section-banners .banners-container.center-container .divider{
-    background-color: gray;
-}
-
-#section-banners .banners-container.center-container img{
-    filter: none;
-    width: 50%;
-} */
+/* Sezione banner a piena larghezza  */
 
 #section-banners .banners-container{
     aspect-ratio: 1/1;
@@ -443,8 +402,16 @@ section.jumbotron div.jumbotron-bottom-container button{
     filter: none;
     width: 50%;
 }
+
 .section-banners .center-banners-container .divider{
     background-color: gray;
+    margin: 3rem 0;
+    width: 120px;
+    color:lightgray;
+}
+
+.section-banners .center-banners-container p:last-child{
+    padding-top: 3rem;
 }
 
 
