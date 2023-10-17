@@ -389,7 +389,7 @@ section.jumbotron div.jumbotron-bottom-container button{
     color: white;
 }
 
-.section-banners .banners-container img{
+#section-banners .banners-container img{
     width: 100px;
     height: 100px;
     filter: invert(1);
@@ -409,13 +409,31 @@ section.jumbotron div.jumbotron-bottom-container button{
     background-color: gray;
 }
 
-.section-banners .banners-container.center-container img{
+#section-banners .banners-container.center-container img{
     filter: none;
     width: 50%;
 } */
 
+#section-banners .banners-container{
+    aspect-ratio: 1/1;
+    width: calc(100% / 3);
+    
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.banner{
+    aspect-ratio: 1/1;
+    width: 50%;
+    
+    background-color: #61082b;
+}
 
+#section-banners .banners-container img{
+    width: 100px;
+    filter: invert(1);
+}
 
 
 /* ultime due sezioni main */
