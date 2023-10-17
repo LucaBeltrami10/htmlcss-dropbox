@@ -160,48 +160,50 @@ header a{
 
 /* MAIN */
 
-/* Jumbo section */
-main > section.jumbo{
+/* Jumbotron section */
+main > section.jumbotron{
     padding: 20px 0 0 0;
 }
 
-section.jumbo h1{
+section.jumbotron h1{
     font-size: 5rem;
     padding: 50px 0;
     font-weight: 800;
 }
 
-section.jumbo div.jumbo-bottom-container{
-    display: flex;
-}
 
-section.jumbo div.jumbo-bottom-container > div{
+
+/* section.jumbotron div.jumbotron-bottom-container{
+    display: flex;
+} */
+
+/* section.jumbotron div.jumbotron-bottom-container > div{
     height: 400px;
     width: 40%;
     background-color: purple;
     padding-right: 10px;
     position: relative;
-}
+} */
 
-section.jumbo div.jumbo-bottom-container > div > button{
+section.jumbotron div.jumbotron-bottom-container button{
     margin: 1rem 0;
 }
 
-section.jumbo div.jumbo-bottom-container i{
+section.jumbotron div.jumbotron-bottom-container i{
     font-size: 2rem;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
-section.jumbo div.jumbo-bottom-container > div.img-container{
+/* section.jumbotron div.jumbotron-bottom-container > div.img-container{
     height: 400px;
     width: 60%;
     background-color: pink;
-}
+} */
 
-div.img-container img{
+/* div.img-container img{
     height: 120%;
-}
+} */
 
 
 
