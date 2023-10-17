@@ -87,6 +87,9 @@ a{
 .cl-gray{
     color: #e4e5ec;
 }
+.cl-strongred{
+    color: #61082b;
+}
 /* font styles */
 .strong{
     font-weight: 600;
@@ -121,7 +124,7 @@ a{
     color: white;
 }
 .large-button{
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1rem;
 }
 .white-button{
     border-color: gray;
@@ -297,8 +300,8 @@ section.jumbotron div.jumbotron-bottom-container button{
 #row-enterprise button{
     display: inline-block;
     position: absolute;
-    top: 0rem;
-    right: 3rem;
+    top: -10px;
+    right: 2.8rem;
 }
 
 
@@ -330,6 +333,10 @@ section.jumbotron div.jumbotron-bottom-container button{
     margin-bottom: 10rem;
 }
 #dropbox-business > .container > h2{
+    padding: 0rem 0 2.5rem 0;
+}
+
+#dropbox-business > .container > div:last-child h2{
     padding: 10rem 0 2.5rem 0;
 }
 
@@ -392,20 +399,24 @@ section.jumbotron div.jumbotron-bottom-container button{
     padding: 2rem;
 }
 
+.section-banners .banners-container.center-container img{
+    filter: none;
+}
+
 /* ultime due sezioni main */
 #dropbox-business-azienda{
     padding: 3.5rem 0;
 }
 #dropbox-business-azienda  h2{
-    width: 75%;
-    padding: 2rem 0;
+    width: 72%;
+    padding: 2.8rem 0 2rem 0;
 }
 
 #dropbox-business-azienda button{
     border-color: rgba(0, 0, 0, 0);
-    padding: 0.7rem 1.5rem;
+    padding: 0.7rem 2.5rem;
     background-color: white;
-    color: gray;
+    color: black;
     margin: 2rem 0;
     font-size: 1rem;
 }
@@ -418,6 +429,7 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 #frequent-questions h2{
     width: max-content;
+    padding: 0 0 2rem 0;
 
 }
 
@@ -425,7 +437,12 @@ section.jumbotron div.jumbotron-bottom-container button{
     height: 1px;
     background-color: #000000;
     width: 100%;
-    margin: 2rem 0;
+    margin: 2.5rem 0;
+}
+
+#frequent-questions > div > div.flex-j-spc-between{
+    padding-right: 2rem;
+    font-weight: 800;
 }
 
 
@@ -455,4 +472,9 @@ footer .large-container .footer-column li{
 
 .bottom-footer-container div.divider{
     margin-bottom: 3.5rem;
+}
+
+.bottom-footer-container div:last-child{
+    color: gray;
+    padding-bottom: 2rem;
 }
