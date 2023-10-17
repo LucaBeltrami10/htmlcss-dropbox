@@ -185,17 +185,6 @@ section.jumbotron h1{
     width: 100%;
 }
 
-/* section.jumbotron div.jumbotron-bottom-container{
-    display: flex;
-} */
-
-/* section.jumbotron div.jumbotron-bottom-container > div{
-    height: 400px;
-    width: 40%;
-    background-color: purple;
-    padding-right: 10px;
-    position: relative;
-} */
 
 section.jumbotron div.jumbotron-bottom-container button{
     margin: 1rem 0;
@@ -206,15 +195,6 @@ section.jumbotron div.jumbotron-bottom-container i{
     position: relative;
     bottom: 0;
 }
-
-/* section.jumbotron div.jumbotron-bottom-container > div.img-container{
-    height: 400px;
-    width: 60%;
-    background-color: pink;
-} */
-
-
-
 
 
 /* main 5 sezioni */
