@@ -120,10 +120,11 @@ a{
 }
 .white-button{
     border-color: gray;
-    padding: 0.5rem;
+    padding: 0.7rem 1rem;
     background-color: white;
     color: gray;
-    margin: 1rem 0;
+    margin: 2rem 0;
+    font-size: 1rem;
 }
 
 div.divider{
@@ -328,12 +329,10 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 
 /* Sezione Dropbox business features */
-#dropbox-business > .container{
-    padding: 1rem 0 3rem 0;
-}
+
 #dropbox-business > .container > h2{
-    font-size: 2rem;
-    padding: 2rem 0;
+    font-size: 2.5rem;
+    padding: 1rem 0;
 }
 
 #dropbox-business .container-business-features{
@@ -348,6 +347,11 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 #dropbox-business .business-feature > img{
     width: 100%;
+}
+
+#dropbox-business .business-feature > h3{
+    padding: 1rem 0 1rem 0;
+    font-size: 1rem;
 }
 
 #dropbox-business > .container > a{
