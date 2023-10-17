@@ -167,13 +167,13 @@ main > section.jumbotron{
 
 section.jumbotron h1{
     font-size: 5rem;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
     font-weight: 800;
 }
 
 .jumbotron-bottom-container > .column-30{
     width: 30%;
-    
+    padding-top: 50px;
 }
 
 .jumbotron-bottom-container > .column-70{
@@ -183,18 +183,23 @@ section.jumbotron h1{
 
 .jumbotron-bottom-container > .column-70 img{
     width: 100%;
+    position: relative;
+    top: 50px;
 }
 
 
 section.jumbotron div.jumbotron-bottom-container button{
     margin: 1rem 0;
 }
-
-section.jumbotron div.jumbotron-bottom-container i{
+.jumbotron-bottom-container > .column-30 >div{
     font-size: 2rem;
     position: relative;
     bottom: 0;
 }
+/* section.jumbotron div.jumbotron-bottom-container i{
+    font-size: 2rem;
+    justify-self: end;
+} */
 
 
 /* main 5 sezioni */
