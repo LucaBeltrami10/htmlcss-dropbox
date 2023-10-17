@@ -135,17 +135,19 @@ div.divider{
 
 
 /* HEADER */
-
+header{
+    height: 80px;
+}
 header .nav-left{
     /*qui sotto da rimuovere */
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     
     height: 100%;
 }
 
 header .nav-right{
     /* qui sotto da rimuovere */
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     
     height: 100%;
 }
@@ -223,7 +225,7 @@ section.jumbotron div.jumbotron-bottom-container button{
     
 
     /*qui sotto da rimuovere */
-    background-color: purple;
+    /* background-color: purple; */
 }
 
 #find-plan .container-opt-sub article.column-opt-sub.advanced{
