@@ -94,7 +94,7 @@ a{
 /* container */
 
 .large-container{
-    width: 62%;
+    max-width: 62%;
     margin: 20px 0;
     background-color: lightcoral;
 }
@@ -103,7 +103,7 @@ a{
     /* qui sotto da rimuovere */
     background-color: lightcoral;
     
-    width: 57%;
+    max-width: 51%;
     margin: 20px 0;
 }
 
