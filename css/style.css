@@ -306,11 +306,11 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 /* Sezione partners */
 #dropbox-partner > .container{
-    padding: 2rem 0;
+    padding: 6.2rem 0;
 }
 
 #dropbox-partner aside{
-    width: 55%;
+    width: 60%;
 }
 
 #dropbox-partner aside img{
@@ -318,7 +318,7 @@ section.jumbotron div.jumbotron-bottom-container button{
 }
 
 #dropbox-partner article{
-    width: 45%;
+    width: 40%;
     padding: 3rem;
 }
 #dropbox-partner article h3{
