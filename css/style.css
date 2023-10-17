@@ -42,6 +42,7 @@ a{
     display: flex;
     align-items: center;
 }
+
 .flex-ai-start{
     display: flex;
     align-items: start;
@@ -63,7 +64,7 @@ a{
 .bc-strongred{
     background-color: #61082b;
 }
-.bc-lightblue{
+.bc-lightblue-banner{
     background-color: #0093ce;
 }
 .bc-red{
@@ -81,11 +82,11 @@ a{
 .bc-yellow{
     background-color: #ffd830;
 }
-
+/* colori */
 .cl-gray{
     color: #e4e5ec;
 }
-
+/* font styles */
 .strong{
     font-weight: 600;
 }
@@ -94,9 +95,11 @@ a{
 /* container */
 
 .large-container{
+    /* qui sotto da rimuovere */
+    background-color: lightcoral;
+
     max-width: 62%;
     margin: 20px 0;
-    background-color: lightcoral;
 }
 
 .container{
@@ -106,8 +109,6 @@ a{
     max-width: 51%;
     margin: 20px 0;
 }
-
-
 
 .button{
     border-color: rgba(0, 0, 0, 0);
@@ -140,9 +141,6 @@ header{
     height: 80px;
 }
 header .nav-left{
-    /*qui sotto da rimuovere */
-    /* background-color: lightcoral; */
-    
     height: 100%;
 }
 
@@ -200,22 +198,17 @@ section.jumbotron div.jumbotron-bottom-container button{
     margin: 2rem 0;
     font-size: 1rem;
 }
+
 .jumbotron-bottom-container > .column-30 >div{
     font-size: 3rem;
     position: absolute;
     bottom: 0;
 }
-/* section.jumbotron div.jumbotron-bottom-container i{
-    font-size: 2rem;
-    justify-self: end;
-} */
 
 
-/* main 5 sezioni */
+/* main 3 sezioni */
 
 /* sezione 1  (tre column + una row)  */
-
-
 #find-plan h2{
     font-size: 2.8rem;
     font-weight: 800;
@@ -291,14 +284,14 @@ section.jumbotron div.jumbotron-bottom-container button{
 #row-enterprise .plan-info{
     position: relative;
 }
+
 #row-enterprise .plan-info p:nth-last-child(2){
     padding: 1rem 0;
     width: 70%;
 }
+
 #row-enterprise button{
     display: inline-block;
-    
-
     position: absolute;
     top: 0rem;
     right: 3rem;
@@ -364,12 +357,8 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 
 /* banners */
-
 .section-banners{
     width: 100%;
-
-    /* qui sotto da rimuovere */
-    background-color: lightgreen;
 }
 
 .section-banners .banners-container{
@@ -399,7 +388,6 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 
 /* FOOTER */
-
 footer{
     color: white;
 }
