@@ -101,7 +101,7 @@ a{
     /* qui sotto da rimuovere */
     background-color: lightcoral;
 
-    max-width: 62%;
+    width: 62%;
     margin: 20px 0;
 }
 
@@ -109,7 +109,7 @@ a{
     /* qui sotto da rimuovere */
     background-color: lightcoral;
     
-    max-width: 51%;
+    width: 51%;
     margin: 20px 0;
 }
 
@@ -406,13 +406,12 @@ section.jumbotron div.jumbotron-bottom-container button{
 /* domande frequenti */
 
 #frequent-questions div.container{
-    margin: 3rem 0;
-    background-color: black;
-    height: 300px;
+    margin: 10rem 0;
 
 }
 
 #frequent-questions h2{
+    width: max-content;
 
 }
 
@@ -421,4 +420,22 @@ section.jumbotron div.jumbotron-bottom-container button{
     background-color: #000000;
     width: 100%;
     margin: 2rem 0;
+}
+
+
+/* footer */
+footer{
+    color: white;
+}
+
+footer > .large-container{
+    padding: 6rem 0;
+}
+
+footer > .large-container .footer-column{
+    width: 23%;
+}
+
+footer > .large-container .footer-column li{
+    padding: 2rem 0
 }
