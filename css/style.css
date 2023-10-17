@@ -173,9 +173,14 @@ section.jumbotron h1{
     font-weight: 800;
 }
 
+.jumbotron-bottom-container{
+    max-height: 450px;
+}
+
 .jumbotron-bottom-container > .column-30{
     width: 30%;
     padding-top: 50px;
+    position: relative;
 }
 
 .jumbotron-bottom-container > .column-70{
@@ -191,11 +196,12 @@ section.jumbotron h1{
 
 
 section.jumbotron div.jumbotron-bottom-container button{
-    margin: 1rem 0;
+    margin: 2rem 0;
+    font-size: 1rem;
 }
 .jumbotron-bottom-container > .column-30 >div{
-    font-size: 2rem;
-    position: relative;
+    font-size: 3rem;
+    position: absolute;
     bottom: 0;
 }
 /* section.jumbotron div.jumbotron-bottom-container i{
