@@ -23,6 +23,7 @@ a{
 .flex{
     display: flex;
 }
+
 .flex-centered{
     display: flex;
     justify-content: center;
@@ -83,6 +84,7 @@ a{
 .bc-yellow{
     background-color: #ffd830;
 }
+
 /* colori */
 .cl-gray{
     color: #e4e5ec;
@@ -90,6 +92,7 @@ a{
 .cl-strongred{
     color: #61082b;
 }
+
 /* font styles */
 .strong{
     font-weight: 600;
@@ -100,7 +103,6 @@ a{
 
 
 /* container */
-
 .large-container{
     width: 62%;
     margin: 20px 0;
@@ -117,9 +119,11 @@ a{
     background-color: #0061ff;
     color: white;
 }
+
 .large-button{
     padding: 0.7rem 1rem;
 }
+
 .white-button{
     border-color: gray;
     padding: 0.7rem 1rem;
@@ -134,6 +138,9 @@ div.divider{
     background-color: white;
     width: 200px;
 }
+
+
+
 
 
 
@@ -190,7 +197,6 @@ section.jumbotron h1{
     position: relative;
     top: 50px;
 }
-
 
 section.jumbotron div.jumbotron-bottom-container button{
     margin: 2rem 0;
@@ -268,8 +274,6 @@ section.jumbotron div.jumbotron-bottom-container button{
     margin: 2.8rem 0 1.5rem 0;
 }
 
-
-
 /* organizzazione tra icona e testo all'interno delle colonne */
 #find-plan .column-icon{
     width: 10%;
@@ -323,6 +327,7 @@ section.jumbotron div.jumbotron-bottom-container button{
 #dropbox-business > .container{
     margin-bottom: 10rem;
 }
+
 #dropbox-business > .container > h2{
     padding: 0rem 0 2.5rem 0;
 }
@@ -363,7 +368,6 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 
 /* Sezione banner a piena larghezza  */
-
 #section-banners .banners-container{
     aspect-ratio: 1/1;
     width: calc(100% / 3);
@@ -407,9 +411,11 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 
 /* ultime due sezioni main */
+/* Dropbox Business */
 #dropbox-business-azienda{
     padding: 3.5rem 0;
 }
+
 #dropbox-business-azienda  h2{
     width: 72%;
     padding: 2.8rem 0 2rem 0;
@@ -423,8 +429,9 @@ section.jumbotron div.jumbotron-bottom-container button{
     margin: 2rem 0;
     font-size: 1rem;
 }
-/* domande frequenti */
 
+
+/* domande frequenti */
 #frequent-questions div.container{
     margin: 10rem 0;
 
