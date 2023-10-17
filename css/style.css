@@ -344,12 +344,17 @@ section.jumbotron div.jumbotron-bottom-container button{
 }
 
 #dropbox-business .business-feature > img{
-    width: 100%;
+    width: 90%;
 }
 
 #dropbox-business .business-feature > h3{
     padding: 1rem 0 1rem 0;
     font-size: 1.5rem;
+}
+
+#dropbox-business .business-feature > p{
+    padding-right: 3.5rem;
+
 }
 
 #dropbox-business > .container > a{
