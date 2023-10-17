@@ -329,10 +329,12 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 
 /* Sezione Dropbox business features */
-
+#dropbox-business > .container{
+    margin-bottom: 10rem;
+}
 #dropbox-business > .container > h2{
     font-size: 2.5rem;
-    padding: 1rem 0;
+    padding: 10rem 0 2.5rem 0;
 }
 
 #dropbox-business .container-business-features{
@@ -351,7 +353,7 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 #dropbox-business .business-feature > h3{
     padding: 1rem 0 1rem 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 #dropbox-business > .container > a{
