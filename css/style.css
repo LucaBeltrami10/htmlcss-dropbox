@@ -50,7 +50,7 @@ a{
 
 /* background color */
 .bc-white{
-    background-color: lightsalmon;
+    background-color: white;
 }
 .bc-lightblue{
     background-color: #b4d0e7;
@@ -99,7 +99,7 @@ a{
 
 .large-container{
     /* qui sotto da rimuovere */
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
 
     width: 62%;
     margin: 20px 0;
@@ -107,7 +107,7 @@ a{
 
 .container{
     /* qui sotto da rimuovere */
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     
     width: 51%;
     margin: 20px 0;
