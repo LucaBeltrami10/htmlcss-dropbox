@@ -399,8 +399,19 @@ section.jumbotron div.jumbotron-bottom-container button{
     padding: 2rem;
 }
 
+.section-banners .banners-container.center-container{
+    padding: 1rem;
+    background-color: #f5f5f5;
+    
+}
+
+.section-banners .banners-container.center-container .divider{
+    background-color: gray;
+}
+
 .section-banners .banners-container.center-container img{
     filter: none;
+    width: 50%;
 }
 
 /* ultime due sezioni main */
