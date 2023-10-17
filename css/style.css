@@ -102,17 +102,11 @@ a{
 /* container */
 
 .large-container{
-    /* qui sotto da rimuovere */
-    /* background-color: lightcoral; */
-
     width: 62%;
     margin: 20px 0;
 }
 
-.container{
-    /* qui sotto da rimuovere */
-    /* background-color: lightcoral; */
-    
+.container{ 
     width: 51%;
     margin: 20px 0;
 }
@@ -152,9 +146,6 @@ header .nav-left{
 }
 
 header .nav-right{
-    /* qui sotto da rimuovere */
-    /* background-color: lightcoral; */
-    
     height: 100%;
 }
 
