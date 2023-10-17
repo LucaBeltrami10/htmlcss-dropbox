@@ -217,6 +217,7 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 #find-plan h2{
     font-size: 2.8rem;
+    font-weight: 800;
     padding: 8rem 0 3rem 0
 }
 
@@ -260,6 +261,10 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 #find-plan .plan-info *{
     padding: 0.5rem 0 ;
+}
+
+#find-plan .plan-info > h3{
+    font-size: 1.5rem;
 }
 
 #find-plan .plan-info > .spec-info{
