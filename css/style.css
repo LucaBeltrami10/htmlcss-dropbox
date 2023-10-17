@@ -428,14 +428,21 @@ footer{
     color: white;
 }
 
-footer > .large-container{
-    padding: 6rem 0;
+footer .large-container{
+    padding: 3rem 0;
 }
 
-footer > .large-container .footer-column{
+footer .large-container .footer-column{
     width: 23%;
 }
 
-footer > .large-container .footer-column li{
-    padding: 2rem 0
+footer .large-container .footer-column h3{
+    padding: 1.8rem 0;
+    font-size: 1.4rem;
+    
+}
+
+footer .large-container .footer-column li{
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
 }
