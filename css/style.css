@@ -222,29 +222,21 @@ section.jumbotron div.jumbotron-bottom-container button{
 }
 
 #find-plan .container-opt-sub{
-    padding: 3.5rem 0 1.5rem 0;
+    padding-top: 3.5rem;
+    font-size: 0.9rem;
     flex-wrap: wrap;
 }
 
 #find-plan .container-opt-sub article.column-opt-sub{
-    /* larghezza con rimosso il margine dato alla sola colonna "advance" */
-    width: calc((100% / 3) - 20px);
     
-
-    /*qui sotto da rimuovere */
-    /* background-color: purple; */
-}
-
-#find-plan .container-opt-sub article.column-opt-sub.advanced{
-    margin: 0 10px;
+    width: calc((100% / 3) - 35px);
+    
 }
 
 #find-plan .container-opt-sub article#row-enterprise{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
 
-    /*qui sotto da rimuovere */
-    background-color: purple;
 }
 
 /* Interno delle colonne */
@@ -260,7 +252,7 @@ section.jumbotron div.jumbotron-bottom-container button{
 }
 
 #find-plan .plan-info *{
-    padding: 0.5rem 0 ;
+    padding: 0.3rem 0 ;
 }
 
 #find-plan .plan-info > h3{
@@ -268,7 +260,7 @@ section.jumbotron div.jumbotron-bottom-container button{
 }
 
 #find-plan .plan-info > .spec-info{
-    padding: 3rem 0 0 0;
+    padding: 2.4rem 0 0 0;
 }
 
 #find-plan div.divider-plan-section{
@@ -276,12 +268,12 @@ section.jumbotron div.jumbotron-bottom-container button{
     background-color: #e4e5ec;
     width: 15%;
     padding: 0;
-    margin: 3rem 0;
+    margin: 2.8rem 0 0 0;
 }
 
 #find-plan button.large-button{
-    padding: 0.5rem 3.5rem;
-    margin: 3rem 0 1.5rem 0;
+    padding: 0.8rem 2.8rem;
+    margin: 2.8rem 0 1.5rem 0;
 }
 
 
