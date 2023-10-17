@@ -417,8 +417,6 @@ section.jumbotron div.jumbotron-bottom-container button{
 #section-banners .banners-container{
     aspect-ratio: 1/1;
     width: calc(100% / 3);
-    
-    background-color: red;
     display: flex;
     flex-wrap: wrap;
 }
@@ -426,8 +424,6 @@ section.jumbotron div.jumbotron-bottom-container button{
 .banner{
     aspect-ratio: 1/1;
     width: 50%;
-    
-    background-color: #61082b;
 }
 
 #section-banners .banners-container img{
