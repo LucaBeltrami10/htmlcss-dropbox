@@ -417,6 +417,10 @@ section.jumbotron div.jumbotron-bottom-container button{
 #section-banners .banners-container{
     aspect-ratio: 1/1;
     width: calc(100% / 3);
+}
+
+#section-banners .right-banners-container,
+#section-banners .left-banners-container{
     display: flex;
     flex-wrap: wrap;
 }
@@ -429,6 +433,18 @@ section.jumbotron div.jumbotron-bottom-container button{
 #section-banners .banners-container img{
     width: 160px;
     filter: invert(1);
+}
+
+#section-banners .center-banners-container{
+    padding: 3rem;
+}
+
+#section-banners .center-banners-container img{
+    filter: none;
+    width: 50%;
+}
+.section-banners .center-banners-container .divider{
+    background-color: gray;
 }
 
 
