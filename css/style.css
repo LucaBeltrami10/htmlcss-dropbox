@@ -190,6 +190,16 @@ header a{
     padding: 10px 15px;
 }
 
+/* gestione liste */
+header div.menu-option{
+    height: 100%;
+}
+
+header div.menu-option:hover{
+    background-color: #F2EEE8;
+}
+
+
 /* MAIN */
 
 /* Jumbotron section */
