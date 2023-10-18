@@ -325,6 +325,10 @@ section.jumbotron div.jumbotron-bottom-container button{
 #row-enterprise .plan-name{
     border: 1px solid #e4e5ec;
 }
+#row-enterprise .plan-info{
+    border: 1px solid #e4e5ec;
+    border-top: 0;
+}
 #row-enterprise button{
     display: inline-block;
     position: absolute;
