@@ -207,6 +207,13 @@ header div.menu-option div.dropdown-menu{
     top: 80px;
     display: none;
 }
+header .nav-right div.menu-option div.dropdown-menu{
+    background-color: #F2EEE8;
+    position: absolute;
+    top: 80px;
+    transform: translate(100%,0);
+    display: none;
+}
 header div.menu-option div.dropdown-menu ul{
     padding-right: 1rem;
     padding-bottom: 2rem;
@@ -222,6 +229,9 @@ header div.menu-option:hover{
     background-color: #F2EEE8;
 }
 
+header div.menu-option:hover div.dropdown-menu{
+    display: flex;
+}
 
 /* MAIN */
 
