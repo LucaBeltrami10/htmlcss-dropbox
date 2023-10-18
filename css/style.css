@@ -265,13 +265,12 @@ section.jumbotron div.jumbotron-bottom-container button{
 /* Interno delle colonne */
 #find-plan .plan-name{
     text-align: center;
-    border: 1px solid #e4e5ec;
+    border-bottom: 1px solid #e4e5ec;
     padding: 0.5rem 0;
 }
 
 #find-plan .plan-info{
     padding: 2rem;
-    border: 1px solid #e4e5ec;
 }
 
 #find-plan .plan-info *{
@@ -323,7 +322,9 @@ section.jumbotron div.jumbotron-bottom-container button{
     padding: 3.5rem 0 0.5rem 0;
     width: 70%;
 }
-
+#row-enterprise .plan-name{
+    border: 1px solid #e4e5ec;
+}
 #row-enterprise button{
     display: inline-block;
     position: absolute;
