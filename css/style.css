@@ -127,8 +127,16 @@ a{
     font-size: 1rem;
 }
 
+.button:hover{
+    background-color: #004ecc;
+}
+
 .large-button{
     padding: 0.7rem 1rem;
+}
+
+.large-button:hover{
+    background-color: #004ecc;
 }
 
 .white-button{
