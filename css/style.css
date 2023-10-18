@@ -215,18 +215,19 @@ header .nav-right div.menu-option div.dropdown-menu{
     right: 0;
 }
 header div.menu-option div.dropdown-menu ul{
-    padding-right: 1rem;
+    padding-left: 1rem;
     padding-bottom: 2rem;
     font-size: 0.9rem;
 }
 header div.menu-option div.dropdown-menu ul li{
     padding: 1.5rem 0 0 0;
     display: inline-block;
-    width: 300px;
+    width: 280px;
 }
 
 header div.menu-option:hover{
     background-color: #F2EEE8;
+    /* border-bottom: 1px solid gray; */
 }
 
 header div.menu-option:hover div.dropdown-menu{
