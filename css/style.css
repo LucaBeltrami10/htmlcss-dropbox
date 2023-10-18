@@ -148,6 +148,12 @@ a{
     font-size: 1rem;
 }
 
+.white-button:hover{
+    border-color: rgba(0, 0, 0, 0);
+    background-color: lightgray;
+    color: white;
+}
+
 div.divider{
     height: 1px;
     background-color: white;
@@ -454,6 +460,11 @@ section.jumbotron div.jumbotron-bottom-container button{
     color: black;
     margin: 2rem 0;
     font-size: 1rem;
+}
+
+#dropbox-business-azienda button:hover{
+    background-color: lightgray;
+    color: white;
 }
 
 
