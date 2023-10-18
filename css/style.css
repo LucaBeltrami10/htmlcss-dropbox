@@ -234,12 +234,14 @@ section.jumbotron div.jumbotron-bottom-container button{
 #find-plan .container-opt-sub{
     padding-top: 3.5rem;
     font-size: 0.9rem;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 #find-plan .container-opt-sub article.column-opt-sub{
     width: calc((100% / 3) - 35px); 
+    height: 100%;
 }
+
 
 #find-plan .container-opt-sub article#row-enterprise{
     width: 100%;
