@@ -168,6 +168,7 @@ div.divider{
 /* HEADER */
 header{
     height: 80px;
+    z-index: 2;
 }
 header .nav-left{
     height: 80px;
@@ -211,8 +212,7 @@ header .nav-right div.menu-option div.dropdown-menu{
     background-color: #F2EEE8;
     position: absolute;
     top: 80px;
-    transform: translate(100%,0);
-    display: none;
+    right: 0;
 }
 header div.menu-option div.dropdown-menu ul{
     padding-right: 1rem;
