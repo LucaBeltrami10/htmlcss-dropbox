@@ -253,7 +253,6 @@ section.jumbotron div.jumbotron-bottom-container button{
 
 #find-plan .container-opt-sub article.column-opt-sub{
     width: calc((100% / 3) - 35px); 
-    height: 100%;
 }
 
 
